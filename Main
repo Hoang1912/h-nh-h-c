@@ -1,0 +1,12 @@
+package hinhhoc;
+
+
+public class main {
+    public static void main(String[] args) {
+        HinhChuNhat hcn = new HinhChuNhat();
+        hcn.dientich ();
+        
+        HinhTron ht = new HinhTron ();
+        ht.dientich ();
+    }
+}
