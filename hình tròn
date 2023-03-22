@@ -1,0 +1,29 @@
+package hinhhoc;
+
+/**
+ *
+ * @author Acer
+ */
+public class HinhTron extends Hinhhoc{
+    private float r;
+    
+    public HinhTron (float r){
+        
+    }
+    
+    public float getr (){
+        return r;
+    }
+    
+    public void setr (){
+        this.r = r;
+    }
+    
+    public double getdientich(){
+        return r * r * 3.14;       
+    }
+    
+    public void setdientich (double dientich){
+        dientich = this.r * this.r * 3.14;
+    }
+}
