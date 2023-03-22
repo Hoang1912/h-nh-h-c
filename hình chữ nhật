@@ -1,0 +1,43 @@
+package hinhhoc;
+
+/**
+ *
+ * @author Acer
+ */
+public class HinhChuNhat extends Hinhhoc {
+    private float cd;
+    private float cr;
+    
+    public HinhChuNhat (float cd, float cr ){
+        
+    }
+
+    HinhChuNhat() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+    
+    public float getcd (){
+        return cd;
+    }
+    
+    public void setcd (float cd){
+        this.cd = cd;
+    }
+    
+    public float getcr (){
+        return cr;
+    }
+    
+    public void setcr (float cr){
+        this.cr = cr;
+    }
+    
+    public double getdientich (){
+        return cd * cr;
+    }
+    
+    public void setdientich (double dientich){
+        dientich = this.cd * this.cr;
+
+    }
+}
